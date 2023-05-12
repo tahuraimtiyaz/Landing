@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Header {
+    color: white;
+    background-color: #1F2837;
+}
+
+.Headertop {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.header-logo {
+    font-size: 24px;
+    color:#F9FAF8;
+
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.title { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    max-width: 444px;
+}
+.titlesub {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 444px;
+}
+.headerbody {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+.hbright {
+    
+}
+img {
+    max-height: 200px;
+    margin-left: 44px;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px ;
+    border-radius: 8px;
+    border: none;
+}
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+}
+.boxes { 
+
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.square {
+    width: 150px;
+    height: 150px; 
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+.section2 {
+    margin: 50px;
+    text-align: center;
+
+}
+.box{
+    width: 150px;
+}
+.section3 {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    
+}
+
+.section4{
+    padding: 88px 111px;
+}
+.call-action {
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 33px;
+    justify-content: space-around;
+}
+    
+.call-action-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px ;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.footer {
+     background-color: #1F2937;
+     color: #F9FAF8;
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     font-size: 9px;
+     text-align: center;
+     justify-content: center;
+}
